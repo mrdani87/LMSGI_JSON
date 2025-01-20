@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+    <store> <!-- Nueva etiqueta añadida para cumplir con el mínimo de 10 etiquetas -->
+        <name>Tienda de Cosméticos y Electrodomésticos</name> <!-- Nombre de la tienda -->
+        <location>Barcelona, España</location> <!-- Ubicación de la tienda -->
+    </store> <!-- Fin de la nueva etiqueta store -->
+    
+    <product>
+        <codi>0001</codi>
+        <name>Agua con sal</name>
+        <description>
+        Spray con sal marina para moldear el cabello creando efecto de ondas surferas y dando forma y volumen al cabello.
+        </description>
+        <price currency="EUR">3,99</price> <!-- Atributo 'currency' que indica la moneda -->
+        <category type="cosmetico">Cosméticos</category> <!-- Tipo: Cosmético -->
+        <availability>En stock</availability>
+        <imagen>https://m.media-amazon.com/images/I/51dl2VJ2J+L._AC_SY355_.jpg</imagen>
+    </product>
+    <product>
+        <codi>0002</codi>
+        <name>Braun Series 7</name>
+        <description>
+        Recorta, perfila y degrada de forma segura en casa: accesorios premium de barbero para conseguir líneas definidas y un recorte uniforme.
+        </description>
+        <price currency="EUR">79,99</price> <!-- Atributo 'currency' que indica la moneda -->
+        <category type="electrodomestico">Electrodomésticos</category> <!-- Tipo: Electrodoméstico -->
+        <availability>Agotado</availability>
+        <imagen>https://m.media-amazon.com/images/I/717EpV8hrvL._AC_UF894,1000_QL80_.jpg</imagen>
+    </product>
+    <product>
+        <codi>0003</codi>
+        <name>Shampoo Kerastase Resistance Bain Force Architecte</name>
+        <description>
+        Shampoo reparador y fortalecedor para cabellos dañados. Ayuda a restaurar la estructura capilar y proporciona una limpieza suave, dejándolos fuertes y brillantes.
+        </description>
+        <price currency="EUR">24,99</price> <!-- Atributo 'currency' que indica la moneda -->
+        <category type="cosmetico">Cosméticos</category> <!-- Tipo: Cosmético -->
+        <availability>En stock</availability>
+        <imagen>https://m.media-amazon.com/images/I/51ddky8+w5L._AC_UF1000,1000_QL80_.jpg</imagen>
+    </product>
+    <product>
+        <codi>0004</codi>
+        <name>Secador de pelo Dyson Supersonic</name>
+        <description>
+        Secador de pelo profesional de alta gama con tecnología avanzada para reducir el daño al cabello. Ofrece un secado rápido, control de temperatura y un diseño ergonómico.
+        </description>
+        <price currency="EUR">399,00</price> <!-- Atributo 'currency' que indica la moneda -->
+        <category type="electrodomestico">Electrodomésticos</category> <!-- Tipo: Electrodoméstico -->
+        <availability>En stock</availability>
+        <imagen>https://m.media-amazon.com/images/I/61SQ3NKptVL._AC_UF1000,1000_QL80_.jpg</imagen>
+    </product>
+</botiga>
