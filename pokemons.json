@@ -1,0 +1,74 @@
+{
+    "pokemons":[
+        {
+            "id": 1,
+            "nom": "Bulbasur",
+            "tipus": ["Planta", "Venenós"],
+            "pes": "6.9 kg",
+            "altura": "0.7 m",
+            "estadistiques": {
+                "velocitat": 45,
+                "fortalesa": 49,
+                "precisió": 65,
+                "resistencia": 49
+            },
+            "moviments": [
+                {
+                    "nom": "Placaje",
+                    "descripciío": "Llança una empenta física per danyar l'oponent.",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "Làtigo Cepta",
+                    "descripció": "Ataca amb unes vinyes que envolten l'enemic.",
+                    "potencia": 40,
+                    "contacte": true
+                }
+            ],
+            "imatge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "evolucions": [
+                {
+                    "id": 2,
+                    "nom": "Ivysaur",
+                    "nivel": 16
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nom": "Charmander",
+            "tipus": ["Foc"],
+            "pes": "8.5 kg",
+            "altura": "0.6 m",
+            "estadistiques": {
+                "velocitat": 65,
+                "fortalesa": 52,
+                "precisió": 60,
+                "resistencia": 43
+            },
+            "moviments": [
+                {
+                    "nom": "Embestida",
+                    "descripciío": "Ataca a l'enemic amb un cop de cola.",
+                    "potencia": 40,
+                    "contacte": true
+                },
+                {
+                    "nom": "Ascuas",
+                    "descripciío": "Llança una bola de foc a l'enemic.",
+                    "potencia": 40,
+                    "contacte": true
+                }
+            ],
+            "imatge": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+            "evolucions": [
+                {
+                    "id": 5,
+                    "nom": "Charmeleon",
+                    "nivel": 16
+                }
+            ]
+        }
+    ]
+}
